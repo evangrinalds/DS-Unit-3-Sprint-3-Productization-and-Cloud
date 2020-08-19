@@ -1,11 +1,2 @@
-(Project) (base) aMacBook:Project egrinalds$ FLASK_APP=twitoff:APP flask run
- * Serving Flask app "twitoff:APP"
- * Environment: production
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: off
- * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-127.0.0.1 - - [17/Aug/2020 16:17:25] "GET / HTTP/1.1" 200 -
-127.0.0.1 - - [17/Aug/2020 16:26:35] "GET / HTTP/1.1" 200 -
-
+https://github.com/evangrinalds/twitoff_tuesday
 
