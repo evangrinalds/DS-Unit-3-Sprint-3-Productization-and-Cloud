@@ -3,22 +3,22 @@ If you get stuck or are unsure of something remember the 20 minute rule. If that
 Have fun studying!
 # Questions of Understanding
 1. Define the following and give an example of an appropriate task for each:
-    - Front-end:
-    - Back-end:
-    - Database:
-2. What is a decorator?
-3. What is a route?
+    - Front-end: Also known as the client side. The interface the user sees. Javascript/HTML/CSS
+    - Back-end: Handles requests from server 
+    - Database: Handles the data persistence 
+2. What is a decorator? Design pattern that allows behavior to be added to an individual object 
+3. What is a route? Add a function to a function 
 4. Why do we want to separate our code into separate files when writing an application? Why not just one big file?
-5. What is an API? Give an example of an API that is not Twitter's.
+5. What is an API? Give an example of an API that is not Twitter's. Application Programming Interface. 
 6. What does it mean to pickle a model? Why might this be useful?
 # Basics of Flask
 ## Coding
 Write a Flask application that displays "Hello World!" to the local host (usually `127.0.0.1:5000` or `localhost:5000`)
 ## Questions of Understanding
 1. Flask is described as a "microframework" for developing web applications. What is a "microframework"?
-2. What is another web development framework in Python?
-3. In this line of code: `APP = Flask(__name__)` What does `__name__` do?
-4. What line of your code tells when and where "Hello World!" should be displayed?
+2. What is another web development framework in Python? Django
+3. In this line of code: `APP = Flask(__name__)` What does `__name__` do? Built in variable that evaluates the name of the current module.
+4. What line of your code tells when and where "Hello World!" should be displayed? @app.route
 5. What do we need to type into the terminal to run our flask application?
 # API's
 ## Coding
