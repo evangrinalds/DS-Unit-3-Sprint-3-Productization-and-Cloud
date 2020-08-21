@@ -19,7 +19,7 @@ Write a Flask application that displays "Hello World!" to the local host (usuall
 2. What is another web development framework in Python? Django
 3. In this line of code: `APP = Flask(__name__)` What does `__name__` do? Built in variable that evaluates the name of the current module.
 4. What line of your code tells when and where "Hello World!" should be displayed? @app.route
-5. What do we need to type into the terminal to run our flask application?
+5. What do we need to type into the terminal to run our flask application? FLASK_APP=hello_world.py flask run
 # API's
 ## Coding
 API's are a common part of programming, whether setting up your own or using someone else's. Today we will be looking at the API for the board gaming hobby site BoardGameGeek (BGG). The API instructions can be found [here](https://boardgamegeek.com/wiki/page/BGG_XML_API&redirectedfrom=XML_API#). There are many wrappers online for the BGG API that you may use but the sample code below will use `requests` and the web scraping library `BeautifulSoup`.
@@ -51,8 +51,13 @@ Write a Flask web application using `SQLAlchemy` with the following:
 - [ ] The database should have the following following columns as a minimum: id (integer), name (string), and max_players (integer)
 ## Questions of Understanding
 1. What line of code establishes what database should be used for your application?
+@app.config_sqlalchemy
    
 2. How do we define our table, what columns are going to be in it, and what those column datatypes are?
+
+When you create a class, that's the schema for the table.
+
+DB.session.query table as the argument
    
 3. How do we make a query to our database?
 # HTML Templates
